@@ -1,5 +1,5 @@
-function sumAll(...numbers){
-    return numbers.reduce((total,n)=> total + n, 0);
+function sumAll(...number){
+    return number.reduce((total, n)=> total + n, 0);
 }
 
-console.log(sumAll(3,9,54,6));
+console.log(sumAll(12,3,6,9));

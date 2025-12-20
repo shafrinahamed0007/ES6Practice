@@ -1,3 +1,3 @@
-const prices = [1200,1400,500,600,8500];
-const expensive = prices.filter(p => p >1000);
+const prices = [540, 780, 1200, 8500, 9650];
+const expensive = prices.filter(p => p>1000);
 console.log(expensive);

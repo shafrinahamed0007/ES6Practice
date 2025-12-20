@@ -8,13 +8,11 @@ const [primary, , ...otherColors] = colors;
 console.log(primary);
 console.log(otherColors);
 
-
-
 // বোনাস: ভ্যালু সোয়াপিং (অদল-বদল)
-let light = "ON", dark = "OFF";
+
+let light = "ON";
+let dark = "OFF";
+
 [light, dark] = [dark, light];
-console.log(dark);
 console.log(light);
-
-
-
+console.log(dark);

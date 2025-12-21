@@ -1,6 +1,7 @@
-const defaultSettings = {theme:"light", fontSize: "14px", showNotification: true};
-const userSettings = {theme:"dark", fontSize: "18px"};
+const defaultSetting = {theme:"Light", fontSize: "14px", showNotification: true};
+const userSetting = {theme:"Dark", fontSize: "18px"};
 
-const finalSettings = {...defaultSettings, ...userSettings};
+const finalSetting = {...defaultSetting, ...userSetting};
 // userSettings এর মানগুলো defaultSettings কে ওভাররাইট করবে
-console.log(finalSettings);
+
+console.log(finalSetting);

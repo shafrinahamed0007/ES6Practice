@@ -28,12 +28,10 @@ const worker = {
 
 // অবজেক্ট থেকে এক লাইনে ডেসট্রাকচারিং ব্যবহার করে city বের করো এবং বাকি সব তথ্য others নামে একটি ভেরিয়েবলে রাখো।
 
-const {city, ...addressRest} = worker.address;
-
+const {city, ...resetaddress} = worker.address;
 const {address, ...others} = worker;
-
 const workerWithoutCity = {
-    ...others, address: {...addressRest}
+    ...others, address:{...resetaddress}
 }
 
 console.log(workerWithoutCity);

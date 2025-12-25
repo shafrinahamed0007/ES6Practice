@@ -6,4 +6,8 @@ const name = users.map(user => user.name);
 // 2.প্রাইস আপডেট: সব পণ্যের দাম ১০% বাড়ানো।
 const prices = [100,200,300];
 const newPrices = prices.map(p => p+(p*0.1));
-console.log(newPrices);
+// console.log(newPrices);
+
+// 3. HTML স্ট্রিং জেনারেট: লিস্ট আইটেম তৈরি।
+const items = ["Apple", "Orange"];
+const htmlItems = items.map(item => `<li>${item}</li>`);
